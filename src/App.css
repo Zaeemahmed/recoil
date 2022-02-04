@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+}
+.app{
+    width: 100%;
+    height: 100vh;
+    background-color: #FAFAFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.action{
+    width: 80vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-bottom: 1px solid #AAA;
+}
+
+.addItemContainer{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #AAA;
+    
+}
+
+.filterItemContainer{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addItemText{
+    display: block;
+    margin-right: 20px;
+}
+
+.addItemInput{
+    height: 30px;
+    margin-right: 20px;
+}
+
+.addInputButton{
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.displayListContainer{
+    border-left: 1px solid #AAA;
+    height: 80%;
+    width: 20vw;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+
+.displayListContainerEmpty{
+    border-left: 1px solid #AAA;
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.listItem{
+    display: block;
+    width: 100%;
+}
+
+.resetContainer{
+    border-left: 1px solid #AAA;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayListContainerMain{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
